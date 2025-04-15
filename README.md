@@ -4,7 +4,7 @@ This project uses real housing data to build a machine learning system that pred
 
 ---
 
-## 🧠 Intuitive Overview
+## Intuitive Overview
 
 - I was given a dataset of homes with features like square footage, year built, bathrooms, etc.
 - My goal: predict the house sale price as accurately as possible.
@@ -12,7 +12,7 @@ This project uses real housing data to build a machine learning system that pred
 
 ---
 
-## 🧮 Algorithms & Underlying Math (Simple View)
+## Algorithms & Underlying Math (Simple View)
 
 Each model tries to learn a function `f(X)` that maps input features `X` to predicted prices `y` by minimizing prediction error.
 
@@ -39,7 +39,7 @@ All models aim to minimize the **Root Mean Squared Error (RMSE)**, which tells u
 
 ---
 
-## 🔁 Step-by-Step Process
+## Step-by-Step Process
 
 1. **Data Cleaning**
    - Removed outliers based on visual inspection
@@ -68,7 +68,7 @@ All models aim to minimize the **Root Mean Squared Error (RMSE)**, which tells u
 
 ---
 
-## 📊 Results
+## Results
 
 | Model              | RMSE       |
 |--------------------|------------|
@@ -89,7 +89,7 @@ All models aim to minimize the **Root Mean Squared Error (RMSE)**, which tells u
 
 ---
 
-## 🧾 Notes
+## Notes
 
 - Final predictions were generated in a Kaggle-style format, but the actual competition deadline was missed, so no leaderboard score is available.
 - This was my first full ML system build and primarily a learning project. While the Kaggle submission was missed, the focus was on mastering preprocessing, model tuning, and performance evaluation.
